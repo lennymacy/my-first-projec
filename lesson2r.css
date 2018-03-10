@@ -1,0 +1,63 @@
+body {
+  background-image: url(mountains.png)
+}
+  h1 {
+    text-align: center;
+    font-size: 400%;
+    font-family: comic sans monospace;
+  }
+  .rvtypes {
+    background-color: beige;
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px
+    }
+  .rvtypes img {
+    float: left;
+    margin: 0 10px 0 0;
+    height: auto;
+    width: 210px;
+  }
+  .decisions {
+    text-align: left;
+    font-size: 50px;
+    font-family: comic sans monospace;
+  }
+  .questions {
+    font-size: 25px;
+    font-family: comic sans monospace;
+  }
+  .links {
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 85%;
+    border: 10px solid black;
+    padding: 10px;
+  }
+  .type {
+    color: red;
+    font-size: 30px;
+    font-family: comic sans monospace;
+  }
+  #p2 {
+    color: green;
+    font-family: comic sans monospace;
+    font-size: 30px;
+  }
+  #p3 {
+    color: green;
+    font-size: 25px;
+    font-family: comic sans monospace;
+  }
+  #p4  {
+    column-count: 3;
+    column-fill: balance;
+  }
+  #p4 a {
+    display: block;
+  }
+  p {
+  font-size: 20px;
+  font-family: comic sans monospace;
+}
